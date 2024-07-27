@@ -106,7 +106,6 @@ class NN(nn.Module):
     def do_valitation_test(self):
         self.eval()
         
-    
         
     def do_train(self, 
                  training_parameters,
